@@ -1,0 +1,60 @@
+.trainer-profile {
+  min-height: calc(100vh - 80px);
+  padding: 40px 0 60px;
+}
+
+.trainer-header {
+  margin-bottom: 40px;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.trainer-info h1 {
+  color: #333;
+  font-size: 42px;
+  margin: 0;
+  font-weight: 800;
+}
+
+.trainer-email {
+  color: #666;
+  font-size: 18px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trainer-info .btn {
+  align-self: flex-start;
+  min-width: 200px;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section-title {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .trainer-header {
+    padding: 24px;
+  }
+
+  .trainer-info h1 {
+    font-size: 32px;
+  }
+}
+
